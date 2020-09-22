@@ -1,0 +1,21 @@
+@import url(__address/contact__address.css);
+@import url(__email/contact__email.css);
+@import url(__tel/contact__tel.css);
+@import url(__communication/contact__communication.css);
+.contact {
+    display: flex;
+    max-width: 30.9375rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .contact__address {
+        display: none
+    }
+}
+
+@media (max-width: 480px) {
+    .contact__tel .icon-phone {
+        display: none;
+    }
+}

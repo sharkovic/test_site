@@ -1,0 +1,35 @@
+.header {
+    position: relative;
+    z-index: 5;
+    margin-bottom: 5.625rem;
+    padding-top: 0.875rem;
+}
+
+.main-info {
+    position: relative;
+    z-index: 4;
+}
+
+.header__left {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.header-menu {
+    margin-left: 4.5rem;
+}
+
+.header__right {
+    display: flex;
+    width: 100%;
+    padding-right: 0.5rem;
+}
+.logo {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.contact-container {
+    margin-left: 28.063rem;
+    margin-right: 3.25rem;
+    font-family: 'Roboto', sans-serif;
+}

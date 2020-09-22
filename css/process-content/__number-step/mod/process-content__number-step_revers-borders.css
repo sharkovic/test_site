@@ -1,0 +1,7 @@
+.processt__number--borders {
+    background-color: white;
+}
+
+.processt__number--borders::after {
+    border: 4px solid #FDBF0F;
+}

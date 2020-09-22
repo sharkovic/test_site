@@ -1,0 +1,86 @@
+.top {
+    background: linear-gradient(0deg, #651FFF -1.81%, #FF5900 33.5%, rgba(253, 191, 15, 0.3) 84.16%, #FFFFFF 145.56%), #FDBF0F;
+    position: relative;
+    min-height: 45rem;
+
+}
+.top::before {
+    content: "";
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 59.03%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.top__container {
+    margin: 0 auto;
+}
+
+.aliexpress{
+    position: relative;
+    z-index: 9;
+}
+.aliexpress__info{
+    max-width: 28.4375rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.aliexpress__logo {
+    text-align: end;
+    margin-bottom: 1.625rem;
+}
+
+.aliexpress__img {
+    max-width: 28.4375rem;
+    width: 100%;
+}
+
+.aliexpress__text {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 3.375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-right: 15px;
+
+}
+
+.title-block img {
+    margin-top: -0.875rem;
+    max-width: 100%;
+}
+
+.aliexpress__p {
+    margin-bottom: 1.5rem;
+    max-width: 22.625rem;
+    width: 100%;
+    font-size: 1.375rem;
+}
+
+.rings {
+    position: absolute;
+    max-width: 43rem;
+    width: 100%;
+    top: 0;
+    left: 22.25rem;
+}
+
+.devushka {
+    position: absolute;
+    max-width: 50.9375rem;
+    width: 100%;
+    bottom: 0%;
+    right: 36.9375rem;
+    z-index: 4;
+}
+
+.mishen {
+    position: absolute;
+    max-width: 38.5625rem;
+    width: 100%;
+    top: 3.25rem;
+    right: 13.75rem;
+    z-index: 3;
+}

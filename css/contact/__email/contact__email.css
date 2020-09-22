@@ -1,0 +1,8 @@
+.contact__email {
+    color: black;
+    display: inline-block;
+    transition: 1s;
+}
+.contact__email:hover{
+    transform: scale(1.1);
+}

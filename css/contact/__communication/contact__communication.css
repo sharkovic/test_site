@@ -1,0 +1,6 @@
+.contact__communication {
+    display: flex;
+    flex-direction: column;
+    max-width: 12.5rem;
+    width: 100%;
+}

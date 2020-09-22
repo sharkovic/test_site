@@ -1,0 +1,25 @@
+.contact__tel {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    transition: 1s;
+}
+
+.contact__tel .icon-phone {
+    content: "";
+    position: absolute;
+    font-size: 1.125rem;
+    top: 0px;
+    left: -2.625rem;
+}
+.contact__tel:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 450px) {
+    .contact__tel {
+        font-size: 0.75rem;
+    }
+}

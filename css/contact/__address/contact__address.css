@@ -1,0 +1,14 @@
+.contact__address {
+    position: relative;
+    font-size: 0.875rem;
+    margin-right: 5.25rem;
+    line-height: 1.5rem;
+    width: 11.125rem
+}
+
+.contact__address .icon-vector {
+    content: "";
+    position: absolute;
+    font-size: 1.125rem;
+    left: -2.625rem;
+}

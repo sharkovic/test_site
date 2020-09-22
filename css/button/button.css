@@ -1,0 +1,101 @@
+.button {
+    display: inline-block;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    max-width: 10.5rem;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    box-shadow: 0px 16px 32px rgba(69, 90, 100, 0.4);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 1s;
+}
+.button::after {
+    height: inherit;
+    max-width: 1.125rem;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: -0.875rem;
+    content: "";
+    background-image: url(rectangle-part.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.button:hover {
+    background-color: #FDBF0F;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.button:hover::after {
+    background-image: url(rectangle-part-yellow.svg);
+}
+.button-aliexpress {
+    height: 3.6875rem;
+    max-width: 15.9375rem;
+    width: 100%;
+    padding-top: 0.9375rem;
+    font-size: 1.5rem;
+}
+.button__advantage{
+    max-width: 18.625rem;
+    height: 3.6875rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    background-color: #FF5900;
+    transition: 1s;
+}
+
+.button__advantage::after {
+    height: inherit;
+    width: 1.125rem;
+    position: absolute;
+    top: 0px;
+    right: -0.875rem;
+    content: "";
+    background-image: url(rectangle-part-orange.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.button__advantage:hover{
+    transform: scale(1.1);
+}
+.button__partner {
+    height: 3.6875rem;
+    max-width: 20.8125rem;
+    width: 100%;
+    padding-top: 0.9375rem;
+    font-size: 1.5rem;
+}
+
+.button_form {
+    height: 3.5rem;
+    max-width: 12.6875rem;
+    width: 100%;
+    padding-top: 0.9375rem;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 376px) {
+    .button__partner {
+        max-width: 16rem;
+    }
+}
+@media (max-width: 356px) {
+    .button {
+        font-size: 0.875rem;
+    }
+}
